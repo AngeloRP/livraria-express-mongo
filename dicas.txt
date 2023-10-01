@@ -1,0 +1,6 @@
+code .   => abre o vsc direto do terminal
+
+npm init -y         cria o servidor node
+
+nodemon   lib para atualizar o servidor. leia mais.
+criei um script para ele manipular o servidor.
