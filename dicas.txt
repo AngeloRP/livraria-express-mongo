@@ -4,3 +4,7 @@ npm init -y         cria o servidor node
 
 nodemon   lib para atualizar o servidor. leia mais.
 criei um script para ele manipular o servidor.
+
+// ESLINt - ctrl+shift+p >>> config user settings JSON  >> "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    } >>> isso faz corrigir os erros sempre que o arquivo ser salvo.        Sequencia de linha final mudar de LF para CRLF.  (mudar apenas na pagina server.js).

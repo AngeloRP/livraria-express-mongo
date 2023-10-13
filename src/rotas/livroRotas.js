@@ -3,12 +3,13 @@ import LivroController  from "../controlador/livrosController.js";  // controlad
 
 const routes = express.Router();
 
-routes.get("/livros", LivroController.ListarLivros);
-routes.get("/livros/busca", LivroController.listarLivroPorEditora);
-routes.get("/livros/:id", LivroController.ListarLivroPorId);
-routes.post("/livros", LivroController.CadastrarLivro);
-routes.put("/livros/:id", LivroController.atualizarLivro);
-routes.delete("/livros/:id", LivroController.deletarLivro); //  :id refere-se a informação variavel,
+routes
+  .get("/livros", LivroController.ListarLivros)
+  .get("/livros/busca", LivroController.listarLivroPorEditora)
+  .get("/livros/:id", LivroController.ListarLivroPorId)
+  .post("/livros", LivroController.CadastrarLivro)
+  .put("/livros/:id", LivroController.atualizarLivro)
+  .delete("/livros/:id", LivroController.deletarLivro); //  :id refere-se a informação variavel,
 
 
 export default routes;
